@@ -1,0 +1,163 @@
+local Mana = loadstring(game:HttpGet("https://pastebin.com/raw/inP2PXxe"))()
+
+local Win = Mana:Window("Dogs Do Drugs") -- Creates the Window AKA Adds the ScreenGui to CoreGui lol
+
+local MainStuff = Mana:SName("MainStuff") -- Creates a littel information mark in the top left looks cool ngl try it
+
+local Autofarm = Win:Tab("Misc") -- This Creates a Tab on the left Side
+
+Autofarm:Toggle("Toggle1", false, function(t) -- This is A Toggle
+hi = loadstring(game:HttpGet("https://pastebin.com/raw/7rXZ9VNc", true))()
+   while hi do task.wait()
+      print("Running Loop")
+   end
+end)
+
+Autofarm:Button("R15 Animation Changer", function() -- This is A Button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sn8ow/Boblox-Fuck/main/scripts/Roblox%20Animation%20Script.lua", true))()
+end)
+
+Autofarm:Button("Anti Afk", function() -- This is A Button
+game:GetService("Players").LocalPlayer.Idled:connect(function()
+	game:GetService("VirtualUser"):Button2Down(Vector2.new(0,0),game:GetService("Workspace").CurrentCamera.CFrame)
+	wait(1)
+	game:GetService("VirtualUser"):Button2Up(Vector2.new(0,0),game:GetService("Workspace").CurrentCamera.CFrame)
+	print("Prevented Kick(Idle) At " .. os.time())
+end)
+end)
+
+Autofarm:Button("Fling Gui", function() -- This is A Button
+loadstring(game:HttpGet('https://files.shade4real.net/flinger.txt'))()
+end)
+
+Autofarm:Button("Animation Gui", function() -- This is A Button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/stangithuboffical/selexity/main/Main", true))()
+end)
+
+Autofarm:Button("Walk on Walls", function() -- This is A Button
+loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+end)
+
+Autofarm:Label("a") -- This is just for information or Text ;)
+
+Autofarm:Slider("Walk Speed", 1, 500, 16, function(v) -- 1st is String | 2nd is min | 3rd is max | 4th is start whew
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+end)
+
+Autofarm:Label("made by snarlings B)") -- This is just for information or Text ;)
+
+Autofarm:line() -- This Creates a line aka some space for a new section or something like that :P
+
+local Autofarm = Win:Tab("Games") -- This Creates a Tab on the left Side
+
+Autofarm:Button("Bee Swarm", function() -- This is A Button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
+end)
+
+Autofarm:Button("Build a Boat", function() -- This is A Button
+loadstring(game:HttpGet(('https://pastebin.com/raw/MHx8q6xP'),true))()
+end)
+
+Autofarm:Button("Horrific Housing", function() -- This is A Button
+loadstring(game:HttpGet("https://paste.ee/r/GzZjj", true))()
+end)
+
+Autofarm:Button("Tower of Hell", function() -- This is A Button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/2dgeneralspam1/scripts-and-stuff/master/scripts/garfield%20hub", true))()
+end)
+
+Autofarm:Button("Piggy", function() -- This is A Button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Piggy/Piggy"))()
+end)
+
+Autofarm:Button("Loomian Legacy", function() -- This is A Button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/LoomianCandy"))()
+end)
+
+Autofarm:Button("The Rake Remastered", function() -- This is A Button
+loadstring(game:HttpGet("https://gist.githubusercontent.com/OtarDevv/49186047e758b9b263ec5a6583a99b4b/raw/bf8e3b74e48936ed310767314b42c17c1b210e86/Rake"))();
+end)
+
+Autofarm:Button("Survive and Kill the Killers", function() -- This is A Button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Ghostmode65/STK-Bo2/master/STK-Menus/v7/STKv7-Engine-Edition-LoadString.txt"))()
+end)
+
+Autofarm:Button("AUT", function() -- This is A Button
+loadstring(game:HttpGet("https://yakihub.xyz/scripts/yakihub.lua", true))()
+end)
+
+Autofarm:Button("Giant Simulator", function() -- This is A Button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NocturneMoDz/GIANT-CYBER-CITY/main/METAB"))();
+end)
+
+Autofarm:Button("Anime Fighters Simulator", function() -- This is A Button
+loadstring(game.HttpGet(game, "https://raw.githubusercontent.com/KiJinGaming/FreeScript/main/KJHub.lua"))();
+end)
+
+Autofarm:Button("Scp 3008", function() -- This is A Button
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Viserromero/Antex/master/SCP3008'))()
+end)
+
+Autofarm:Button("Anime Battleground X", function() -- This is A Button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/x3fall3nangel/RobloxScript/main/Anime%20Battlegrounds%20X.lua", true))()
+end)
+
+Autofarm:Button("Pet Simulator X", function() -- This is A Button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BLACKGAMER1221/Pet-Simulator-X/main/BK%20Pet.lua"))()
+end)
+
+Autofarm:Button("Anime Punching Simulator", function() -- This is A Button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Whybiee/Roblox-scripts/main/Anime%20Punching%20Simulator.lua"))()
+end)
+
+Autofarm:Button("Scp Roleplay", function() -- This is A Button
+loadstring(game:HttpGet("https://anomaly.cool/scripts/scp-rp.lua"))()
+end)
+
+Autofarm:Button("All Star Tower Defense", function() -- This is A Button
+loadstring(game:HttpGet('https://raw.githubusercontent.com/KarmaPanda/Roblox/main/astd-aio.lua'))()
+end)
+
+Autofarm:Button("Demonfall", function() -- This is A Button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LeadMarker/Scripts/main/KronosFall.lua"))() 
+end)
+
+Autofarm:Button("Clicker Simulator", function() -- This is A Button
+loadstring(game:HttpGet("https://pastebin.com/raw/pAPt1k5w"))()
+end)
+
+Autofarm:Button("Jailbreak", function() -- This is A Button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+end)
+
+Autofarm:Button("Saber Simulator", function() -- This is A Button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/artas01/artas01/main/saber-byEmirhanAsik"))()
+end)
+
+Autofarm:Button("Bedwars", function() -- This is A Button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+Autofarm:Button("A Hero's Destiny", function() -- This is A Button
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ttd1108/Script/master/aherosdestiny2'), true))()
+end)
+
+Autofarm:Button("Destruction Simulator", function() -- This is A Button
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FadeRemix/RND-Games/main/DestructionSim.lua"))()
+end)
+
+Autofarm:Button("Button3", function() -- This is A Button
+print("hello ".. game.Players.LocalPlayer.Name.. "!")
+end)
+
+Autofarm:Button("Button4", function() -- This is A Button
+print("hello ".. game.Players.LocalPlayer.Name.. "!")
+end)
+
+Autofarm:Button("Button5", function() -- This is A Button
+print("hello ".. game.Players.LocalPlayer.Name.. "!")
+end)
+
+Autofarm:Button("Button6", function() -- This is A Button
+print("hello ".. game.Players.LocalPlayer.Name.. "!")
+end)
